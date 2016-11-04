@@ -14,6 +14,7 @@
 		04937C6C1DCC4CF600FFCEE4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04937C6A1DCC4CF600FFCEE4 /* LaunchScreen.storyboard */; };
 		04937C771DCC4CF600FFCEE4 /* myTrainerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04937C761DCC4CF600FFCEE4 /* myTrainerTests.swift */; };
 		04937C821DCC4CF600FFCEE4 /* myTrainerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04937C811DCC4CF600FFCEE4 /* myTrainerUITests.swift */; };
+		04937C911DCC567600FFCEE4 /* 750x1334.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 04937C901DCC567600FFCEE4 /* 750x1334.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		04937C7D1DCC4CF600FFCEE4 /* myTrainerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = myTrainerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		04937C811DCC4CF600FFCEE4 /* myTrainerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = myTrainerUITests.swift; sourceTree = "<group>"; };
 		04937C831DCC4CF600FFCEE4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04937C901DCC567600FFCEE4 /* 750x1334.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = 750x1334.jpg; path = ../../../750x1334.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +99,7 @@
 		04937C601DCC4CF600FFCEE4 /* myTrainer */ = {
 			isa = PBXGroup;
 			children = (
+				04937C8F1DCC565200FFCEE4 /* image */,
 				04937C611DCC4CF600FFCEE4 /* AppDelegate.swift */,
 				04937C631DCC4CF600FFCEE4 /* ViewController.swift */,
 				04937C651DCC4CF600FFCEE4 /* Main.storyboard */,
@@ -123,6 +126,14 @@
 				04937C831DCC4CF600FFCEE4 /* Info.plist */,
 			);
 			path = myTrainerUITests;
+			sourceTree = "<group>";
+		};
+		04937C8F1DCC565200FFCEE4 /* image */ = {
+			isa = PBXGroup;
+			children = (
+				04937C901DCC567600FFCEE4 /* 750x1334.jpg */,
+			);
+			name = image;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -237,6 +248,7 @@
 			files = (
 				04937C6C1DCC4CF600FFCEE4 /* LaunchScreen.storyboard in Resources */,
 				04937C691DCC4CF600FFCEE4 /* Assets.xcassets in Resources */,
+				04937C911DCC567600FFCEE4 /* 750x1334.jpg in Resources */,
 				04937C671DCC4CF600FFCEE4 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
