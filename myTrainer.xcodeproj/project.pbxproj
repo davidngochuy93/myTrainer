@@ -15,6 +15,7 @@
 		04937C771DCC4CF600FFCEE4 /* myTrainerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04937C761DCC4CF600FFCEE4 /* myTrainerTests.swift */; };
 		04937C821DCC4CF600FFCEE4 /* myTrainerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04937C811DCC4CF600FFCEE4 /* myTrainerUITests.swift */; };
 		04937C911DCC567600FFCEE4 /* 750x1334.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 04937C901DCC567600FFCEE4 /* 750x1334.jpg */; };
+		04937C951DCC5D3600FFCEE4 /* ShowSplashScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04937C941DCC5D3600FFCEE4 /* ShowSplashScreen.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		04937C811DCC4CF600FFCEE4 /* myTrainerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = myTrainerUITests.swift; sourceTree = "<group>"; };
 		04937C831DCC4CF600FFCEE4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		04937C901DCC567600FFCEE4 /* 750x1334.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = 750x1334.jpg; path = ../../../750x1334.jpg; sourceTree = "<group>"; };
+		04937C941DCC5D3600FFCEE4 /* ShowSplashScreen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShowSplashScreen.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +104,7 @@
 				04937C8F1DCC565200FFCEE4 /* image */,
 				04937C611DCC4CF600FFCEE4 /* AppDelegate.swift */,
 				04937C631DCC4CF600FFCEE4 /* ViewController.swift */,
+				04937C941DCC5D3600FFCEE4 /* ShowSplashScreen.swift */,
 				04937C651DCC4CF600FFCEE4 /* Main.storyboard */,
 				04937C681DCC4CF600FFCEE4 /* Assets.xcassets */,
 				04937C6A1DCC4CF600FFCEE4 /* LaunchScreen.storyboard */,
@@ -276,6 +279,7 @@
 			files = (
 				04937C641DCC4CF600FFCEE4 /* ViewController.swift in Sources */,
 				04937C621DCC4CF600FFCEE4 /* AppDelegate.swift in Sources */,
+				04937C951DCC5D3600FFCEE4 /* ShowSplashScreen.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -526,6 +530,7 @@
 				04937C881DCC4CF600FFCEE4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		04937C891DCC4CF600FFCEE4 /* Build configuration list for PBXNativeTarget "myTrainerTests" */ = {
 			isa = XCConfigurationList;
@@ -534,6 +539,7 @@
 				04937C8B1DCC4CF600FFCEE4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		04937C8C1DCC4CF600FFCEE4 /* Build configuration list for PBXNativeTarget "myTrainerUITests" */ = {
 			isa = XCConfigurationList;
@@ -542,6 +548,7 @@
 				04937C8E1DCC4CF600FFCEE4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
