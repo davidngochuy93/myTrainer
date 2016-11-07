@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		04937C621DCC4CF600FFCEE4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04937C611DCC4CF600FFCEE4 /* AppDelegate.swift */; };
-		04937C641DCC4CF600FFCEE4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04937C631DCC4CF600FFCEE4 /* ViewController.swift */; };
 		04937C671DCC4CF600FFCEE4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04937C651DCC4CF600FFCEE4 /* Main.storyboard */; };
 		04937C691DCC4CF600FFCEE4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04937C681DCC4CF600FFCEE4 /* Assets.xcassets */; };
 		04937C6C1DCC4CF600FFCEE4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04937C6A1DCC4CF600FFCEE4 /* LaunchScreen.storyboard */; };
@@ -16,6 +15,12 @@
 		04937C821DCC4CF600FFCEE4 /* myTrainerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04937C811DCC4CF600FFCEE4 /* myTrainerUITests.swift */; };
 		04937C911DCC567600FFCEE4 /* 750x1334.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 04937C901DCC567600FFCEE4 /* 750x1334.jpg */; };
 		04937C951DCC5D3600FFCEE4 /* ShowSplashScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04937C941DCC5D3600FFCEE4 /* ShowSplashScreen.swift */; };
+		04FF98DB1DD02ECA0013080F /* FBSDKCoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04FF98D81DD02ECA0013080F /* FBSDKCoreKit.framework */; };
+		04FF98DC1DD02ECA0013080F /* FBSDKLoginKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04FF98D91DD02ECA0013080F /* FBSDKLoginKit.framework */; };
+		04FF98DD1DD02ECA0013080F /* FBSDKShareKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04FF98DA1DD02ECA0013080F /* FBSDKShareKit.framework */; };
+		04FF98E31DD0330B0013080F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04FF98E21DD0330B0013080F /* ViewController.swift */; };
+		04FF98E51DD037290013080F /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04FF98E41DD037290013080F /* Bolts.framework */; };
+		04FF98E71DD0376B0013080F /* MainController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04FF98E61DD0376B0013080F /* MainController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,7 +43,6 @@
 /* Begin PBXFileReference section */
 		04937C5E1DCC4CF600FFCEE4 /* myTrainer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = myTrainer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		04937C611DCC4CF600FFCEE4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		04937C631DCC4CF600FFCEE4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		04937C661DCC4CF600FFCEE4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		04937C681DCC4CF600FFCEE4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		04937C6B1DCC4CF600FFCEE4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -51,6 +55,12 @@
 		04937C831DCC4CF600FFCEE4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		04937C901DCC567600FFCEE4 /* 750x1334.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = 750x1334.jpg; path = ../../../750x1334.jpg; sourceTree = "<group>"; };
 		04937C941DCC5D3600FFCEE4 /* ShowSplashScreen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShowSplashScreen.swift; sourceTree = "<group>"; };
+		04FF98D81DD02ECA0013080F /* FBSDKCoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKCoreKit.framework; sourceTree = "<group>"; };
+		04FF98D91DD02ECA0013080F /* FBSDKLoginKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKLoginKit.framework; sourceTree = "<group>"; };
+		04FF98DA1DD02ECA0013080F /* FBSDKShareKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKShareKit.framework; sourceTree = "<group>"; };
+		04FF98E21DD0330B0013080F /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		04FF98E41DD037290013080F /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Bolts.framework; sourceTree = "<group>"; };
+		04FF98E61DD0376B0013080F /* MainController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +68,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04FF98DC1DD02ECA0013080F /* FBSDKLoginKit.framework in Frameworks */,
+				04FF98DB1DD02ECA0013080F /* FBSDKCoreKit.framework in Frameworks */,
+				04FF98DD1DD02ECA0013080F /* FBSDKShareKit.framework in Frameworks */,
+				04FF98E51DD037290013080F /* Bolts.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -101,14 +115,19 @@
 		04937C601DCC4CF600FFCEE4 /* myTrainer */ = {
 			isa = PBXGroup;
 			children = (
+				04FF98E41DD037290013080F /* Bolts.framework */,
+				04FF98D81DD02ECA0013080F /* FBSDKCoreKit.framework */,
+				04FF98D91DD02ECA0013080F /* FBSDKLoginKit.framework */,
+				04FF98DA1DD02ECA0013080F /* FBSDKShareKit.framework */,
 				04937C8F1DCC565200FFCEE4 /* image */,
 				04937C611DCC4CF600FFCEE4 /* AppDelegate.swift */,
-				04937C631DCC4CF600FFCEE4 /* ViewController.swift */,
 				04937C941DCC5D3600FFCEE4 /* ShowSplashScreen.swift */,
 				04937C651DCC4CF600FFCEE4 /* Main.storyboard */,
 				04937C681DCC4CF600FFCEE4 /* Assets.xcassets */,
 				04937C6A1DCC4CF600FFCEE4 /* LaunchScreen.storyboard */,
 				04937C6D1DCC4CF600FFCEE4 /* Info.plist */,
+				04FF98E21DD0330B0013080F /* ViewController.swift */,
+				04FF98E61DD0376B0013080F /* MainController.swift */,
 			);
 			path = myTrainer;
 			sourceTree = "<group>";
@@ -277,7 +296,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				04937C641DCC4CF600FFCEE4 /* ViewController.swift in Sources */,
+				04FF98E71DD0376B0013080F /* MainController.swift in Sources */,
+				04FF98E31DD0330B0013080F /* ViewController.swift in Sources */,
 				04937C621DCC4CF600FFCEE4 /* AppDelegate.swift in Sources */,
 				04937C951DCC5D3600FFCEE4 /* ShowSplashScreen.swift in Sources */,
 			);
@@ -431,12 +451,18 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = YES;
 				DEVELOPMENT_TEAM = G244PQVSSP;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/myTrainer",
+				);
 				INFOPLIST_FILE = myTrainer/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Tan.myTrainer;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
+				VALID_ARCHS = "arm64 armv7 armv7s";
 			};
 			name = Debug;
 		};
@@ -444,12 +470,18 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = YES;
 				DEVELOPMENT_TEAM = G244PQVSSP;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/myTrainer",
+				);
 				INFOPLIST_FILE = myTrainer/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Tan.myTrainer;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
+				VALID_ARCHS = "arm64 armv7 armv7s";
 			};
 			name = Release;
 		};
